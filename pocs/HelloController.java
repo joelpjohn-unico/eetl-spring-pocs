@@ -8,11 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloController {
 	
+	//wish
 	@RequestMapping("/wish/{name}")
 	public String wish(@PathVariable String name) {
 		System.out.println("Inside Hello controller wish method.");
 		return "Hello "+name+" welocme to spring interceptor";
 	}
+	//logout
 	@RequestMapping("/logout")
 	public String logout() {
 		System.out.println("inside the logout.");

@@ -26,5 +26,4 @@ public class SessionTimeoutInterceptor extends HandlerInterceptorAdapter{
 		}
 		return true;
 	}
-
 }

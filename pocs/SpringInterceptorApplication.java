@@ -9,6 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class SpringInterceptorApplication implements WebMvcConfigurer {
+	
 	@Autowired
 	SessionTimeoutInterceptor sti;
 
